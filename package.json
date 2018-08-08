@@ -1,10 +1,10 @@
 {
   "name": "out-fileinfo",
   "version": "1.0.0",
-  "description": "选择指定文件或文件夹，在终端显示文件目录或文件内容",
-  "main": "./bin/index.js",
+  "description": "一个node-cli，选择指定文件或文件夹，在命令行显示文件目录或文件内容",
+  "main": "./bin/cli.js",
   "bin": {
-    "out-fileinfo": "bin/index.js"
+    "out-fileinfo": "./bin/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
