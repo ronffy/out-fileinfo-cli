@@ -1,0 +1,26 @@
+{
+  "name": "out-fileinfo",
+  "version": "1.0.0",
+  "description": "选择指定文件或文件夹，在终端显示文件目录或文件内容",
+  "main": "./bin/index.js",
+  "bin": {
+    "out-fileinfo": "bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "cli",
+    "node-cli"
+  ],
+  "author": "ronffy",
+  "license": "MIT",
+  "devDependencies": {
+    "chalk": "^2.4.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ronffy/out-fileinfo-cli.git"
+  }
+}
