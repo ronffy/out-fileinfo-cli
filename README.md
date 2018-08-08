@@ -1,16 +1,23 @@
 # out-fileinfo CLI
-
 一个node-cli，功能是：选择指定文件或文件夹，在命令行显示文件目录或文件内容
-
 
 ## How to use
 
+本地安装
 ```shell
-cnpm install out-fileinfo
+npm install out-fileinfo
 #or
-yard i
+yarn add out-fileinfo
 ```
 
+全局安装
+```shell
+npm install out-fileinfo -g
+#or
+yarn add out-fileinfo -g
+```
+
+执行
 ```shell
 out-fileinfo
 ```
